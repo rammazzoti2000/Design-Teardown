@@ -13,7 +13,7 @@ Heatmap of the [Smashing Magazine](https://www.smashingmagazine.com/) website.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/rammazzoti2000/Design-Teardown/e96ea9ae2e92d427ff9a979ae96be13307c2cf4d/index.html)
+[Live Demo Link](https://rawcdn.githack.com/rammazzoti2000/Design-Teardown/fafb1639657d2804c08a3af7b2355c97523a743f/index.html)
 
 
 ## Authors
