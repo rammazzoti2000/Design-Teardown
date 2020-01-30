@@ -177,3 +177,52 @@ main {
   left: auto;
   right: 8%;
 }
+
+.article-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 4px;
+}
+
+.articles {
+  height: 390px;
+  padding: 20px;
+}
+
+.ads {
+  background-color: white;
+}
+
+.ads-1 {
+  background-color: rgb(63, 63, 63);
+}
+
+.big-container {
+  height: 400px;
+  width: 95%;
+  background-color: rgb(63, 63, 63);
+  margin: 10px;
+}
+
+.inline-container {
+  background-color: lightgray;
+  height: 50px;
+  width: 400px;
+  margin: 80px auto;
+}
+
+.personal {
+  display: grid;
+  grid-template-columns: 20% 1fr;
+  
+}
+
+.photo {
+  height: 200px;
+  background-color: rgb(100, 100, 100) ;
+}
+
+.info {
+  padding-left: 20px;
+}
