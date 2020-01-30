@@ -4,7 +4,7 @@
 
 ![screenshot](/pics/web-screenshot.png)
 
-Heatmap of the [smashingmagazine.com](https://www.smashingmagazine.com/) page for signing up new users.
+Heatmap of the [Smashingmagazine](https://www.smashingmagazine.com/) website.
 
 ## Built With
 
