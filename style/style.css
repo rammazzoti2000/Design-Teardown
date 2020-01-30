@@ -82,13 +82,13 @@ select {
 header {
   width: 100%;
   margin: 0 auto;
-  height: 160px;
+  height: 158.45px;
 }
 
 .nav-container {
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: space-between;
   margin-top: 6px;
 }
 
@@ -98,7 +98,7 @@ header {
 }
 
 .middle-nav {
-  width: 55%;
+  width: 55.5%;
 }
 
 .right-nav {
@@ -130,13 +130,12 @@ ul.nav-list {
 
 .nav-list li {
   width: 20%;
-  padding: 0 6px;
+  padding: 0 3px;
   margin: 0 auto;
 }
 
 /* main content */
 main {
-  width: 99%;
   margin: 0 auto;
 }
 
@@ -172,7 +171,7 @@ main {
   border: 4px solid white;
   background-color: rgb(161, 161, 161);
   z-index: 1;
-  top: 5%;
+  top: 3.5%;
   left: auto;
   right: 8%;
 }
@@ -238,13 +237,18 @@ main {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+  
 }
 
 .head-shot {
   width: 49%;
   height: 79px;
   background-color: rgb(100, 100, 100);
-  margin-right: 15px;
+}
+
+.news-text {
+  padding: 0 16px;
+
 }
 
 .guides-container {
@@ -290,7 +294,7 @@ footer {
 .site-map-list li,
 .contact-container li {
   display: inline;
-  padding: 10px;
+  padding: 12px;
 }
 
 .footer-text {
