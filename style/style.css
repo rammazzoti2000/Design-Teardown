@@ -266,3 +266,37 @@ main {
   height: 400px;
   background-color: rgb(63, 63, 63);
 }
+
+footer {
+  text-align: center;
+  margin-bottom: 6px;
+  padding-bottom: 8%;
+}
+
+.site-map-container {
+  display: flex;
+  flex-flow: column;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.contact-container {
+  margin: 0 auto;
+  width: 35%;
+}
+
+.site-map-list li,
+.contact-container li {
+  display: inline;
+  padding: 10px;
+}
+
+.footer-text {
+  color: rgb(119, 119, 119);
+  margin: 50px 0 20px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(83, 83, 83);
+}
