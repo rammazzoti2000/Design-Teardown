@@ -2,7 +2,7 @@
 
 > Smashing Magazine Heatmap
 
-![screenshot](/pics/web-screenshot.png)
+![screenshot](/pics/screenshot.png)
 
 Heatmap of the [Smashing Magazine](https://www.smashingmagazine.com/) website.
 
