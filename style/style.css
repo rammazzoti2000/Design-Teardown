@@ -76,3 +76,72 @@ select {
     scroll-behavior: auto !important;
   }
 }
+body {
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  margin: 0 auto;
+  height: 180px;
+  background-color: teal;
+}
+
+.nav-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+
+.nav {
+  height: 172px;
+}
+
+.left-nav {
+  background-color: tomato;
+  width: 25%;
+}
+
+.middle-nav {
+  background-color: yellowgreen;
+  width: 48%;
+}
+
+.right-nav {
+  background-color: violet;
+  width: 25%;
+}
+
+.nav-list {
+  
+  padding: 0 5px 5px;
+}
+
+.top {
+  height: 70px;
+  background-color: gray;
+  width: 100%;
+  /* display: flex; */
+  /* flex-flow: column; */
+  margin-bottom: 3px;
+}
+
+.middle, .bottom {
+  height: 40px;
+}
+
+.middle {
+  background-color: darkgray;
+}
+
+.bottom {
+  background-color: lightgrey;
+}
+
+.nav-list li {
+  width: 19%;
+  /* display: inline-block; */
+  padding: 10px;
+  margin: 0 auto;
+}
