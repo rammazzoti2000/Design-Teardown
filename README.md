@@ -4,7 +4,7 @@
 
 ![screenshot](/pics/web-screenshot.png)
 
-Heatmap of the [Smashingmagazine](https://www.smashingmagazine.com/) website.
+Heatmap of the [SmashingMagazine](https://www.smashingmagazine.com/) website.
 
 ## Built With
 
