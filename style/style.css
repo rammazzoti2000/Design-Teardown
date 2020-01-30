@@ -246,3 +246,23 @@ main {
   background-color: rgb(100, 100, 100);
   margin-right: 15px;
 }
+
+.guides-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.guides {
+  width: 33%;
+  height: 400px;
+  background-color: rgb(100, 100, 100);
+  margin-bottom: 5px;
+}
+
+.two-columns {
+  width: 66.5%;
+  height: 400px;
+  background-color: rgb(63, 63, 63);
+}
