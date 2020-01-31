@@ -1,0 +1,347 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  margin: 0 10px;
+  box-sizing: border-box;
+}
+
+/* Remove list styles on ol elements with a class attribute */
+ol[class] {
+  list-style: none;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+header {
+  width: 100%;
+  margin: 0 auto;
+  height: 158.45px;
+}
+
+.nav-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 6px;
+}
+
+.left-nav {
+  background-color: rgb(100, 100, 100);
+  width: 22%;
+}
+
+.middle-nav {
+  width: 55.5%;
+}
+
+.right-nav {
+  background-color: rgb(161, 161, 161);
+  width: 22%;
+}
+
+ul.nav-list {
+  display: flex;
+}
+
+.top {
+  height: 70px;
+  background-color: rgb(100, 100, 100);
+  width: 100%;
+  margin-bottom: 4px;
+}
+
+.middle {
+  background-color: rgb(63, 63, 63);
+  height: 40px;
+  margin-bottom: 4px;
+}
+
+.bottom {
+  background-color: lightgrey;
+  height: 35px;
+}
+
+.nav-list li {
+  width: 20%;
+  padding: 0 3px;
+  margin: 0 auto;
+  list-style: none;
+}
+
+/* main content */
+main {
+  margin: 0 auto;
+}
+
+.main-container {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 2px;
+}
+
+.main-cards {
+  background-color: rgb(100, 100, 100);
+  height: 800px;
+}
+
+.title-header {
+  position: absolute;
+  width: 30%;
+  height: 150px;
+  background-color: rgb(63, 63, 63);
+  border: 4px solid white;
+  z-index: 1;
+  left: 50%;
+  top: 35%;
+  margin-left: -15%;
+}
+
+.seriously-red {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  border: 4px solid white;
+  background-color: rgb(161, 161, 161);
+  z-index: 1;
+  top: 3.5%;
+  left: auto;
+  right: 8%;
+}
+
+.article-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 4px;
+  margin-bottom: 20px;
+}
+
+.articles {
+  height: 390px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.ads {
+  background-color: white;
+  border: 2px dashed lightgray;
+}
+
+.external-adds {
+  background-color: rgb(63, 63, 63);
+}
+
+.big-container {
+  height: 400px;
+  background-color: rgb(63, 63, 63);
+}
+
+.inline-container {
+  background-color: lightgray;
+  height: 50px;
+  width: 400px;
+  margin: 80px auto;
+}
+
+.personal {
+  display: grid;
+  grid-template-columns: 20% 1fr;
+  margin: auto;
+  padding: 30px 0;
+}
+
+.photo {
+  height: 200px;
+  background-color: rgb(100, 100, 100);
+}
+
+.info {
+  padding-left: 16px;
+}
+
+.latest-articles {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.news {
+  width: 49.7%;
+  height: 200px;
+  margin: 50px 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.head-shot {
+  width: 49%;
+  height: 79px;
+  background-color: rgb(100, 100, 100);
+}
+
+.news-text {
+  padding: 0 16px;
+}
+
+.guides-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.guides {
+  width: 33%;
+  height: 400px;
+  background-color: rgb(100, 100, 100);
+  margin-bottom: 5px;
+}
+
+.two-columns {
+  width: 66.5%;
+  height: 400px;
+  background-color: rgb(63, 63, 63);
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 6px;
+  padding-bottom: 8%;
+  padding-top: 4%;
+  background-color: lightgray;
+}
+
+.site-map-container {
+  display: flex;
+  flex-flow: column;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.contact-container {
+  margin: 0 auto;
+  width: 35%;
+}
+
+.site-map-list li,
+.contact-container li {
+  display: inline;
+  padding: 12px;
+}
+
+.footer-text {
+  color: rgb(119, 119, 119);
+  margin: 50px 0 20px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(83, 83, 83);
+}
+
+h2 {
+  font-family: 'PT Sans', serif;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 30px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+}
+
+.articles span {
+  font-family: 'PT Sans', serif;
+  line-height: 4;
+  color: gray;
+  font-weight: 900;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.info p {
+  padding-top: 20px;
+}
+
+h4 {
+  font-family: 'PT Sans', serif;
+  color: gray;
+  padding-bottom: 20px;
+}
+
+.news-text p span {
+  font-family: 'PT Sans', serif;
+  color: gray;
+  font-weight: 900;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.news-text h2 {
+  padding-bottom: 20px;
+}
