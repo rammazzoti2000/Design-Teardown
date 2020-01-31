@@ -181,11 +181,13 @@ main {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-gap: 4px;
+  margin-bottom: 20px;
 }
 
 .articles {
   height: 390px;
   padding: 20px;
+  margin-bottom: 20px;
 }
 
 .ads {
@@ -234,7 +236,7 @@ main {
 .news {
   width: 49.7%;
   height: 200px;
-  margin: 4px 0;
+  margin: 50px 0;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
@@ -306,4 +308,47 @@ footer {
 a {
   text-decoration: none;
   color: rgb(83, 83, 83);
+}
+
+h2 {
+  font-family: 'PT Sans', serif;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 30px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+}
+
+.articles span {
+  font-family: 'PT Sans', serif;
+  line-height: 4;
+  color: gray;
+  font-weight: 900;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.info p {
+  padding-top: 20px;
+}
+
+h4 {
+  font-family: 'PT Sans', serif;
+  color: gray;
+  padding-bottom: 20px;
+}
+
+.news-text p span {
+  font-family: 'PT Sans', serif;
+  color: gray;
+  font-weight: 900;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.news-text h2 {
+  padding-bottom: 20px;
 }
