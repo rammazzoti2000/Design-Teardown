@@ -126,6 +126,7 @@ ul.nav-list {
   width: 20%;
   padding: 0 3px;
   margin: 0 auto;
+  list-style: none;
 }
 
 /* main content */
